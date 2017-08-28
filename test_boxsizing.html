@@ -1,0 +1,180 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>test</title>
+    <style>
+      dd, div, dl, dt, em, fieldset, form, h1, h2, h3, h4, iframe, input, li, object, ol, p, select, textarea, ul {
+        margin: 0;
+        padding: 0;
+      }
+      ol, ul {
+        list-style-type: none;
+      }
+      em {
+        font-style: normal;
+      }
+      .wrap {
+        position: relative;
+        width: 562px;
+        border: 1px solid red;
+        color: #424242;
+
+      }
+      .list_menu {
+        overflow: hidden;
+      }
+      .list_item {
+        float: left;
+        width: 50%;
+        line-height: 22px;
+      }
+      .list_menu_inner {
+        position: relative;
+        margin-left: 11px;
+      }
+      .list_menu li:nth-of-type(odd) .list_menu_inner {
+          margin-right: 12px;
+      }
+      .list_menu_inner::before {
+        position: absolute;
+        top: 50%;
+        right: 0;
+        left: 0;
+        height: 1px;
+        margin-top: -1px;
+        border-top: 1px dashed #e8ecf1;
+        box-sizing: border-box;
+        content: '';
+      }
+      .list_menu li:nth-of-type(even) .list_menu_inner::after {
+        display: inline-block;
+        position: absolute;
+        top: 4px;
+        left: -13px;
+        width: 1px;
+        height: 11px;
+        background: #ecf0f2;
+        content: '';
+      }
+      .price {
+        position: relative;
+        z-index: 10;
+        float: right;
+        margin-left: 0;
+        padding-left: 5px;
+        background: #fefefe;
+        color: #424242;
+      }
+      .menu_area {
+        overflow: hidden;
+        display: block;
+        text-overflow: ellipsis;
+        white-space: nowrap;
+      }
+      .menu {
+        display: inline-block;
+        overflow: hidden;
+        position: relative;
+        max-width: 100%;
+        padding-right: 6px;
+        box-sizing: border-box;
+        background: #fefefe;
+        color: #424242;
+        text-overflow: ellipsis;
+        vertical-align: top;
+      }
+      .category {
+        display: inline-block;
+        width: 65px;
+        margin-right: 5px;
+        color: #9a9a9a;
+        vertical-align: top;
+      }
+      .list_menu .icon_typical {
+        float: right;
+        width: 27px;
+        height: 16px;
+        margin-top: 2px;
+        margin-left: 6px;
+        border: 1px solid #f88;
+        border-radius: 1px;
+        background: #fff;
+        box-sizing: border-box;
+        font-size: 11px;
+        color: #ff6d6d;
+        line-height: 16px;
+        text-align: center;
+        vertical-align: 2px;
+    }
+    </style>
+  </head>
+  <body>
+    <div class='wrap'>
+      <ul class="list_menu">
+        <li class="list_item">
+          <div class='list_menu_inner'>
+            <em class='price'>23000원</em>
+            <div class='menu_area'>
+              <div class="menu">
+                <span class="icon_typical">대표</span>
+                <span class='name'>
+                  <span class='category'>
+                    페디큐어
+                  </span>
+                  데스트데스트데스트데스트데스트데스트데스트데스트데스트데스트데스트데스트
+                </span>
+              </div>
+            </div>
+          </div>
+        </li>
+        <li class="list_item">
+          <div class='list_menu_inner'>
+            <em class='price'>23000원</em>
+            <div class='menu_area'>
+              <div class="menu">
+                <span class="icon_typical">대표</span>
+                <span class='name'>
+                  <span class='category'>
+                    페디큐어
+                  </span>
+                  데스트데스트데스트데스트데스트데스트데스트데스트데스트데스트데스트데스트
+                </span>
+              </div>
+            </div>
+          </div>
+        </li>
+        <li class="list_item">
+          <div class='list_menu_inner'>
+            <em class='price'>23000원</em>
+            <div class='menu_area'>
+              <div class="menu">
+                <span class='name'>
+                  <span class='category'>
+                    페디큐어
+                  </span>
+                  데스트데스트데스트데스트데스트데스트데스트데스트데스트데스트데스트데스트
+                </span>
+              </div>
+            </div>
+          </div>
+        </li>
+        <li class="list_item">
+          <div class='list_menu_inner'>
+            <em class='price'>23000원</em>
+            <div class='menu_area'>
+              <div class="menu">
+                <span class='name'>
+                  <span class='category'>
+                    페디큐어
+                  </span>
+                  데스트데스트데스트데스트데스트데스트데스트데스트데스트데스트데스트데스트
+                </span>
+              </div>
+            </div>
+          </div>
+        </li>
+      </ul>
+    </div>
+  </body>
+</html>
