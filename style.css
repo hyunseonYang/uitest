@@ -1,0 +1,134 @@
+html {
+  font-size: 10px;
+  -webkit-font-smoothing: antialiased;
+  line-height: 10px;
+}
+
+body,
+p,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+ul,
+ol,
+li,
+dl,
+dt,
+dd,
+table,
+th,
+td,
+form,
+fieldset,
+legend,
+input,
+textarea,
+button,
+article,
+aside,
+canvas,
+details,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+menu,
+nav,
+section,
+audio,
+video {
+  margin: 0;
+  padding: 0;
+}
+
+body,
+input,
+textarea,
+select,
+table,
+button,
+code {
+  font-family: -apple-system, BlinkMacSystemFont, helvetica, "Apple SD Gothic Neo", sans-serif;
+  font-size: 1.6rem;
+  letter-spacing: -0.3px;
+  line-height: 2rem;
+}
+
+img,
+fieldset {
+  border: 0;
+}
+
+ol,
+ul {
+  list-style: none;
+}
+
+i,
+em,
+address,
+cite,
+dfn {
+  font-style: normal;
+}
+
+a {
+  color: inherit;
+  text-decoration: none;
+  -webkit-tap-highlight-color: rgba(0, 0, 0, 0.1);
+}
+
+a,
+button {
+  cursor: pointer;
+}
+
+table {
+  border-collapse: collapse;
+  word-break: break-word;
+}
+
+table caption {
+  display: none !important;
+}
+
+hr {
+  display: none !important;
+}
+
+.App {
+  font-family: sans-serif;
+  text-align: center;
+}
+
+.App {
+  position: relative;
+  background: #fff;
+}
+
+.content {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  background: #bae1ff;
+  border-radius: 70px;
+  font-size: 20px;
+  font-weight: 700;
+  line-height: 50px;
+}
+
+.content {
+  height: 100vh;
+}
+
+/* .content {
+  height: 100%;
+}
+.content {
+  bottom: 0;
+} */
